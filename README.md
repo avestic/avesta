@@ -7,7 +7,7 @@ From a technical standpoint, Strata is exclusively built on top of open-source s
 - MongoDB as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
 - Elasticsearch as the query engine and storage for read models. (See [Why Elasticsearch]())
 
-Strata is fully written in, and uses modern C#/.NET as its fundamental platform.
+Strata is fully written in, and uses modern C#/.NET as its foundational platform.
 
 # Why NATS:
 NATS is Strata's single most important piece of infrastructure. It single-handedly fulfills most of its infrastructure needs.
