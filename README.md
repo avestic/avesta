@@ -10,7 +10,7 @@ From a technical standpoint, Strata is exclusively built on top of open-source s
 Strata is fully written in, and uses modern C#/.NET as its foundational platform.
 
 # Why NATS:
-NATS is Strata's single most important piece of infrastructure. It single-handedly fulfills most of its infrastructure needs.
+NATS is Strata's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
 
 TODO:
 ## Functional bias and its powerful implications:
