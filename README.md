@@ -1,6 +1,6 @@
-# Strata: Next-generation, all-in-one back-end framework.
+# Zeus: Next-generation, all-in-one back-end framework.
 
-Strata encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
+Zeus encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
 
 From a technical standpoint, Strata is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
 - NATS as the connective backbone — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
@@ -8,7 +8,7 @@ From a technical standpoint, Strata is exclusively built on top of open-source s
 - Elasticsearch as the query engine and storage for read models. (See [Why Elasticsearch]())
 - GraphQL as the facade for the outside world and client applications (See [Why GraphQL]())
 
-Strata is fully written in, and uses modern C#/.NET as its foundational platform.
+Zeus is fully written in, and uses modern C#/.NET as its foundational platform.
 
 # Why NATS:
 NATS is Strata's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
