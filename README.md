@@ -1,4 +1,4 @@
-# Strata — next-gen microservice framework.
+# Strata: Next-generation, all-in-one back-end framework.
 
 Strata encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
 
