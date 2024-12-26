@@ -13,12 +13,12 @@ Strata is fully written in, and uses modern C#/.NET as its foundational platform
 NATS is Strata's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
 
 ## The result:
-Through its carefully made tradeoffs, Strata manages to achieve numerous highly desired properties in back-end systems:
+Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Strata manages to achieve numerous highly desired properties in back-end systems:
 - Native, out-of-the-box horizontal scalability
 - Automatic load-balancing
 - Full location transparency
 - End-to-end type-safety (across service boundaries, with versioning)
-- Near real-time (Strata never "polls" anything; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
+- Purely event-driven/everything's real-time (Strata never "polls" anything; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
 
 TODO:
 ## Functional "bias" and its powerful implications:
