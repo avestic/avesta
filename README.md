@@ -1,6 +1,6 @@
-# Zeus: Next-generation, all-in-one back-end framework.
+# Perseus: Next-generation, all-in-one back-end framework.
 
-Zeus encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
+Perseus encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
 
 From a technical standpoint, Zeus is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
 - **NATS** as the connective backbone — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
@@ -25,3 +25,4 @@ TODO:
 ## Functional "bias" and its powerful implications:
 ## There is no such thing as a "service".
 At best, it's an insufficiently-descriptive choice of naming; and at worst, it's indicative of something more fundamentally wrong, either tight coupling, mixing of concerns, or otherwise just bad design.
+## If you're not building microservices, Perseus is still appropriate, because it gives you, out of the box, what you'd have to try hard to get on your own: seamless horizontal scalability for your monolith.
