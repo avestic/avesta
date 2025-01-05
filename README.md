@@ -15,6 +15,9 @@ It makes heavy use of bleeding-edge C# features, including but not limited to th
 - Source generators & analyazers
 - Interceptors
 - Nested interface definitions
+What Zues still feels a dire need for in C#:
+- [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
+- Discriminated unions
 
 The C# of even 5 years ago would have been too inexpressive of a language for Perseus's patterns.
 
