@@ -1,14 +1,14 @@
-# Perseus: Next-generation, all-in-one back-end framework.
+# Avesta: Next-generation, all-in-one back-end framework.
 
-Perseus encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
+Avesta encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
 
-From a technical standpoint, Zeus is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
+From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
 - **NATS** as the connective backbone — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
 - **MongoDB** as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
 - **Elasticsearch** as the query engine and storage for read models. (See [Why Elasticsearch]())
 - **GraphQL** as the facade for the outside world and client applications (See [Why GraphQL]())
 
-Zeus is fully written in, and uses modern C#/.NET as its foundational platform.
+Avesta is fully written in, and uses modern C#/.NET as its foundational platform.
 It makes heavy use of bleeding-edge C# features, including but not limited to the following:
 - Static interface members
 - Record types (more generally, features around immutability such as the `with` keyword)
@@ -16,9 +16,9 @@ It makes heavy use of bleeding-edge C# features, including but not limited to th
 - Interceptors
 - Nested interface definitions
 
-The C# of even 5 years ago would have been too inexpressive of a language for Perseus's patterns.
+The C# of even 5 years ago would have been too inexpressive of a language for Avesta's patterns.
 
-Language features that Zeus still feels a dire need for in C#:
+Language features that Avesta still feels a dire need for in C#:
 - [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
 - [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - Discriminated unions
