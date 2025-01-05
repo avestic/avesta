@@ -11,12 +11,12 @@ From a technical standpoint, Zeus is exclusively built on top of open-source sof
 Zeus is fully written in, and uses modern C#/.NET as its foundational platform.
 It makes heavy use of bleeding-edge C# features, including but not limited to the following:
 - Static interface members
-- Record types (+ features around immutability like the `with` keyword)
-- Source generators
+- Record types (more generally, features around immutability such as the `with` keyword)
+- Source generators & analyazers
 - Interceptors
 - Nested interface definitions
 
-The C# of even 5 years ago would not have been a capable enough language to support expressing Perseus's patterns.
+The C# of even 5 years ago would have been too inexpressive of a language for Perseus's patterns.
 
 # Why NATS:
 NATS is Zeus's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
