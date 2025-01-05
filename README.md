@@ -9,6 +9,12 @@ From a technical standpoint, Zeus is exclusively built on top of open-source sof
 - **GraphQL** as the facade for the outside world and client applications (See [Why GraphQL]())
 
 Zeus is fully written in, and uses modern C#/.NET as its foundational platform.
+It makes heavy use of bleeding-edge C# features, including but not limited — the C# of even 5 years ago would not been a capable enough language to support Perseus's patterns:
+- Static interface members
+- Record types (+ features around immutability like the `with` keyword)
+- Source generators
+- Interceptors
+- Nested interface definitions
 
 # Why NATS:
 NATS is Zeus's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
