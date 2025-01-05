@@ -25,17 +25,17 @@ Language features that Avesta still feels a dire need for in C#:
 - Static extensions & extension properties
 
 # Why NATS:
-NATS is Zeus's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
+NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
 
 ## The result:
-Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Zeus manages to achieve numerous highly desired properties in back-end systems:
+Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
 - Native, out-of-the-box horizontal scalability
 - Automatic load-balancing
 - Full location transparency
 - End-to-end type-safety (across service boundaries, with versioning)
-- Purely event-driven/everything's real-time (Zeus never "polls" anything; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
+- Purely event-driven/everything's real-time ("polling" is forbidden in Avesta; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
 
-From a more abstract standpoint, Zeus aims to approximate the ideals of:
+From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Type-safety — compile-time checks over runtime exceptions
 - Explicitness over implicitness
 - Developer ergonomics
