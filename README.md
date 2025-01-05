@@ -20,9 +20,9 @@ The C# of even 5 years ago would have been too inexpressive of a language for Pe
 
 Language features that Zeus still feels a dire need for in C#:
 - [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
+- [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - Discriminated unions
 - Static extensions & extension properties
-- [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 
 # Why NATS:
 NATS is Zeus's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
@@ -39,7 +39,7 @@ From a more abstract standpoint, Zeus aims to approximate the ideals of:
 - Type-safety — compile-time checks over runtime exceptions
 - Explicitness over implicitness
 - Developer ergonomics
-- Code aesthetics
+- Code "aesthetics"
 - Principle of least surprise (i.e. it just works)
 
 TODO:
