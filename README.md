@@ -26,6 +26,7 @@ From a more abstract standpoint, Zeus aims to approximate the ideals of:
 - Explicitness over implicitness
 - Developer ergonomics
 - Code aesthetics
+- Principle of least surprise (i.e. it just works)
 
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
