@@ -15,6 +15,7 @@ It makes heavy use of bleeding-edge C# features, including but not limited to th
 - Source generators
 - Interceptors
 - Nested interface definitions
+
 The C# of even 5 years ago would not have been a capable enough language to support expressing Perseus's patterns.
 
 # Why NATS:
