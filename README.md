@@ -22,6 +22,7 @@ Language features that Zeus still feels a dire need for in C#:
 - [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
 - Discriminated unions
 - Static extensions & extension properties
+- [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 
 # Why NATS:
 NATS is Zeus's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
