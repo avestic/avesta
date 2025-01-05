@@ -21,7 +21,14 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - End-to-end type-safety (across service boundaries, with versioning)
 - Purely event-driven/everything's real-time (Zeus never "polls" anything; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
 
+From a more abstract standpoint, Zeus aims to approximate the ideals of:
+- Type-safety — compile-time checks over runtime exceptions
+- Explicitness over implicitness
+- Developer ergonomics
+- Code aesthetics
+
 TODO:
+## Event sourcing — the only approach for an exhaustive, lossless source of truth
 ## Functional "bias" and its powerful implications:
 ## There is no such thing as a "service".
 At best, it's an insufficiently-descriptive choice of naming; and at worst, it's indicative of something more fundamentally wrong, either tight coupling, mixing of concerns, or otherwise just bad design.
