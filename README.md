@@ -1,6 +1,6 @@
 # Avesta: Next-generation, all-in-one back-end framework.
 
-Avesta encompasses and fully centers itself around sophisticated architectural ideas such as DDD (domain-driven design), CQRS, event sourcing.
+Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing**.
 
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
 - **NATS** as the connective backbone — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
