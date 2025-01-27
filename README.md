@@ -48,7 +48,7 @@ TODO:
 Avesta is loosely inspired by the "Functional Core, Imperative Shell" philosophy.
 ## There is no such thing as a "service".
 At best, it's an insufficiently-descriptive choice of naming; and at worst, it's indicative of something more fundamentally wrong, either tight coupling, mixing of concerns, or otherwise just bad design.
-## If you're not building microservices, Perseus is still appropriate, because it gives you, out of the box, what you'd have to try hard to get on your own: seamless horizontal scalability for your monolith.
+## If you're not building microservices, Avesta still gives you, out of the box, what you'd have to try hard to get on your own: seamless horizontal scalability for your monolith.
 
 
 # FAQ:
