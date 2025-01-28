@@ -23,6 +23,7 @@ Language features that Avesta still feels a dire need for in C#:
 - [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - Discriminated unions
 - Static extensions & extension properties
+- [Negative generic constraints](https://github.com/dotnet/csharplang/discussions/707)
 
 # Why NATS:
 NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
