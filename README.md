@@ -5,7 +5,7 @@ Avesta encompasses and fully centers itself around sophisticated architectural i
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", include:
 - **NATS** as the connective backbone, as the "central nervous system" of the distributed system — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
 - **MongoDB** as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
-- **Elasticsearch** as the query engine and storage for read models. (See [Why Elasticsearch]())
+- **Redis Stack** as the query engine and storage for read models. (See [Why Redis]())
 - **GraphQL** as the facade for the outside world and client applications (See [Why GraphQL]())
 
 Avesta is fully written in, and uses modern C#/.NET as its foundational platform.
