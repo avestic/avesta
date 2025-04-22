@@ -3,7 +3,7 @@
 Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing**.
 
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", are as follows:
-- **NATS** as the connective backbone, as the "central nervous system" of the distributed system — middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
+- **NATS** as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
 - **MongoDB** as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
 - **Redis Stack** as the query engine and storage for read models. (See [Why Redis]())
 
