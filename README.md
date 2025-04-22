@@ -35,6 +35,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Full location transparency
 - End-to-end type-safety (across service boundaries, with versioning)
 - Purely event-driven/everything's real-time ("polling" is forbidden in Avesta; everything, from read model updates, to publishing of messages from the outbox, happen "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
+- Single executable — no other deployment artifacts. Avesta applications always ship as a singular runnable application; we don't have multiple runnable projects (e.g. per each background worker, etc.)
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Type-safety — compile-time checks over runtime exceptions
