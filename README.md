@@ -6,6 +6,7 @@ From a technical standpoint, Avesta is exclusively built on top of open-source s
 - **NATS** as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking, key-value storage, and configuration management. (See [Why NATS]())
 - **MongoDB** as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
 - **Redis Stack** as the query engine and storage for read models. (See [Why Redis]())
+And that's it. No other out-of-process dependencies.
 
 Other opinions include:
 - **GraphQL** as the facade for the outside world and client applications (See [Why GraphQL]())
