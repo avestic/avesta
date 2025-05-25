@@ -64,3 +64,6 @@ Avesta's out-of-process dependencies are:
 # FAQ:
 ### "masterfully-crafted"? Cringe.
 One man's cringe is another's profundity. Give it some time and you too will be drawn into the cringe.
+
+### What is "Avestic"?
+Avestic refers to any application built based on Avesta the framework. It's short for "Avesta-based".
