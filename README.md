@@ -66,4 +66,4 @@ Avesta's out-of-process dependencies are:
 One man's cringe is another's profundity. Give it some time and you too will be drawn into the cringe.
 
 ### What is "Avestic"?
-Avestic refers to any application built based on Avesta the framework. It's short for "Avesta-based".
+Avestic is an adjective; and here, it means an application built on top of Avesta, the framework. It's short for "Avesta-based".
