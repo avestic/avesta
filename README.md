@@ -1,3 +1,5 @@
+<img src="https://github.com/user-attachments/assets/6f323193-bcbe-4bc7-aa05-a3d65e104bfb" alt="Avesta's logo" width="200" />
+
 # Avesta: Next-generation, all-in-one back-end framework.
 
 Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing**.
