@@ -36,24 +36,24 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
-- Native, out-of-the-box **horizontal scalability** (with elegant distributed coordination, workqueue support, etc.)
-- Automatic **load-balancing**
-- Full **location transparency**
-- End-to-end **type-safety** (across service boundaries, with versioning)
-- Purely **event-driven**/everything's real-time — "polling" is a sin in Avesta; everything, from read model updates, to the publishing of messages from the outbox happens "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system.
-- **Single executable** — no other deployment artifacts. Avesta applications always ship as one runnable program, minimizing operational complexity, both during development and also in production; we don't have multiple executable projects (e.g. one for each background worker, etc.)
-- **Exactly-once** message processing (thanks to solid outbox+inbox patterns)
-- **Sequence-preserving** message consumption guarantees
-- Maximally-performant, maximally-flexible **view (read model) system**
-- Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events**
-- Periodic **background jobs**
-- Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.)
-- Meticulous handling of **concurrency** at all levels
-- Efficient **MessagePack-based** (de)serialization — isolated serialization per service
-**- Value objects**, enhancing type-safety, and encouraging programming at the right level of abstraction
-- Deep, built-in **extensibility** support, through a wide variety of _hooks_
-- Full **observability** support (all-encompassing traces, rich metrics, and extensive logs)
-- Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc.
+- Native, out-of-the-box **horizontal scalability** (with elegant distributed coordination, workqueue support, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Automatic **load-balancing** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Full **location transparency** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Purely **event-driven**/everything's real-time — "polling" is a sin in Avesta; everything, from read model updates, to the publishing of messages from the outbox happens "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Single executable** — no other deployment artifacts. Avesta applications always ship as one runnable program, minimizing operational complexity, both during development and also in production; we don't have multiple executable projects (e.g. one for each background worker, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Exactly-once** message processing (thanks to solid outbox+inbox patterns) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Sequence-preserving** message consumption guarantees <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Maximally-performant, maximally-flexible **view (read model) system** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Meticulous handling of **concurrency** at all levels <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+**- Value objects**, enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
