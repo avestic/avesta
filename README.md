@@ -48,7 +48,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - **Sequence-preserving** message consumption guarantees <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Maximally-performant, maximally-flexible **view (read model) system** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Granular and comprehensive tracking of **causes**__ of state transitions across and within bounded contexts <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Granular and comprehensive tracking of **cause and effect** with regards to state transitions, across and within bounded contexts. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Meticulous handling of **concurrency** at all levels <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
