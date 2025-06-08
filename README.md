@@ -54,6 +54,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Extensibility via a wide variety of hooks
 - Full observability support (all-encompassing traces, rich metrics, and extensive logs)
 - Sophisticated healthcheck mechanism, taking into account view up-to-date-ness, etc.
+- among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Type-safety — compile-time checks over runtime exceptions
