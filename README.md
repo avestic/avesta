@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/57602a49-1b7e-452a-8363-88c99fec1742" alt="Avesta's logo" width="200" />
+<img src="https://github.com/user-attachments/assets/c7f00d98-eb0f-449e-bb31-cf9f0c2aa100" alt="Avesta's logo" width="200" />
 
 # Avesta: Next-generation, all-in-one back-end framework.
 
