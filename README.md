@@ -37,7 +37,7 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
 - Native, out-of-the-box **horizontal scalability** (with elegant distributed coordination, workqueue support, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Auto-failover/rebalancing when a node is shut down
+- Auto-failover/**rebalancing** when nodes are shut down or spun up
 - Automatic **load-balancing** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Full **location transparency** (for messages, but also for request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
@@ -56,7 +56,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Value objects**, enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Request-reply resilience capabilities
+- Request-reply **resilience** capabilities
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - among many other things...
