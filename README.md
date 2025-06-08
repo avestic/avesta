@@ -68,6 +68,8 @@ From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Code "aesthetics"
 - Principle of least surprise (i.e. it just works)
 
+There is a single major tradeoff Avesta makes, and that is loss of language-agnosticism. Avesta expects your system of microservices to all be based on C#, .NET, and Avesta.
+
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
 ## Functional "bias" and its powerful implications:
