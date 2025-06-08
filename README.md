@@ -41,13 +41,15 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Full **location transparency** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Purely **event-driven**/everything's real-time — "polling" is a sin in Avesta; everything, from read model updates, to the publishing of messages from the outbox happens "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Fully **event-sourced**, the only approach to persistence of business data that guarantees losslessness_
 - **Single executable** — no other deployment artifacts. Avesta applications always ship as one runnable program, minimizing operational complexity, both during development and also in production; we don't have multiple executable projects (e.g. one for each background worker, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Exactly-once** message processing (thanks to solid outbox+inbox patterns) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Sequence-preserving** message consumption guarantees <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Maximally-performant, maximally-flexible **view (read model) system** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Granular and comprehensive tracking of **causes**__ of state transitions across and within bounded contexts <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Support for periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Meticulous handling of **concurrency** at all levels <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 **- Value objects**, enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
