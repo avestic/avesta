@@ -58,11 +58,6 @@ Avesta is loosely inspired by the "Functional Core, Imperative Shell" philosophy
 At best, it's an insufficiently-descriptive choice of naming; and at worst, it's indicative of something more fundamentally wrong, either tight coupling, mixing of concerns, or otherwise just bad design.
 ## If you're not building microservices, Avesta still gives you, out of the box, what you'd have to try hard to get on your own: seamless horizontal scalability for your monolith.
 
-Avesta's out-of-process dependencies are:
-- NATS
-- MongoDB
-- Elasticsearch
-
 # FAQ:
 ### "masterfully-crafted"? Cringe.
 One man's cringe is another's profundity. Give it some time and you too will be drawn into the cringe.
