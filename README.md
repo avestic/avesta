@@ -71,14 +71,15 @@ From a more abstract standpoint, Avesta aims to approximate the ideals of:
 There is a single major tradeoff Avesta makes, and that is loss of language-agnosticism. Avesta expects your system of microservices to all be based on C#, .NET, and Avesta.
 
 Avesta's relationship with other prominent technologies in the .NET ecosystem — Avesta:
-Builds on top of:
+
+**Builds on top of:**
 - .NET
 - ASP.NET Core
-Can be used with:
+**Can be used with:**
 - Aspire
 - EF Core
 - (everything else)
-Rivals:
+**Rivals:**
 - Orleans
 - Akka .NET
 - Dapr
