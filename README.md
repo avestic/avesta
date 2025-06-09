@@ -75,10 +75,12 @@ Avesta's relationship with other prominent technologies in the .NET ecosystem â€
 **Builds on top of:**
 - .NET
 - ASP.NET Core
+
 **Can be used with:**
 - Aspire
 - EF Core
 - (everything else)
+
 **Rivals:**
 - Orleans
 - Akka .NET
