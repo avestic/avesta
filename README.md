@@ -70,6 +70,20 @@ From a more abstract standpoint, Avesta aims to approximate the ideals of:
 
 There is a single major tradeoff Avesta makes, and that is loss of language-agnosticism. Avesta expects your system of microservices to all be based on C#, .NET, and Avesta.
 
+Avesta's relationship with other prominent technologies in the .NET ecosystem — Avesta:
+Builds on top of:
+- .NET
+- ASP.NET Core
+Can be used with:
+- Aspire
+- EF Core
+- (everything else)
+Rivals:
+- Orleans
+- Akka .NET
+- Dapr
+- Temporal.io
+
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
 ## Functional "bias" and its powerful implications:
