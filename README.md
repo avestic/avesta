@@ -54,7 +54,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Support for periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Meticulous handling of **concurrency** at all levels <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- **Value objects**, enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Value objects** (a.k.a. branded types, newtypes, fresh types), enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Request-reply **resilience** capabilities
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
