@@ -20,7 +20,6 @@ It makes heavy use of bleeding-edge C# features, including but not limited to th
 - Record types (more generally, features around immutability such as the `with` keyword)
 - Source generators & analyazers
 - Interceptors
-- Nested interface definitions
 
 The C# of even 5 years ago would have been too inexpressive of a language for Avesta's patterns.
 
