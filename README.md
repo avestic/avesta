@@ -56,8 +56,8 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - **Value objects** (a.k.a. branded types, newtypes, fresh types), enhancing type-safety, and encouraging programming at the right level of abstraction <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Request-reply **resilience** capabilities
-- Granular, conditional, real-time **configuration system**
-- Expressive **authorization instruments**
+- Targeted, conditional, real-time **configuration mechanism**
+- Fine-grained, expressive **authorization instruments**
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - among many other things...
