@@ -58,6 +58,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Request-reply **resilience** capabilities
 - Targeted, conditional, real-time **configuration mechanism**
 - Fine-grained, expressive **authorization instruments**
+- Faciliates the elimination of synchronous/blocking service-to-service communication — in a typical Avestic system, there is exactly **no temporal coupling** between services
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - among many other things...
