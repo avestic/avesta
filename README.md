@@ -57,7 +57,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - **Value objects** (a.k.a. branded types, newtypes, fresh types), enhancing type-safety, making "invalid states unrepresentable". <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Request-reply **resilience** capabilities
-- Targeted, conditional, real-time **configuration mechanism**
+- Targeted, conditional **configuration mechanism** with **hot-reload**
 - Utilizes **Rx.NET** (System.Reactive primitives) to express all **stream processing** workloads, in order to achieve optimal throughout and correctness
 - Fine-grained, expressive **authorization instruments**
 - Faciliates the elimination of synchronous/blocking service-to-service communication — in a typical Avestic system, there is exactly **no temporal coupling** between services
