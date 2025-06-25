@@ -80,12 +80,12 @@ Avesta's relationship with other prominent technologies in the .NET ecosystem â€
 - .NET
 - ASP.NET Core
 
-**Can be used with:**
+**Can be coupled with:**
 - Aspire
 - EF Core
 - (everything else)
 
-**Rivals:**
+**Aims to rival:**
 - Orleans
 - Akka .NET
 - Dapr
