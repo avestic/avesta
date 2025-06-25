@@ -45,7 +45,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Event-sourced aggregate **snapshot** support for efficient loading of aggregate instances
 - **Single executable** â€” no other deployment artifacts. Avestic applications always ship as one runnable program, minimizing operational complexity, both during development and also in production; we don't have multiple executable projects (e.g. one for each background worker, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- **Exactly-once** message processing (thanks to solid outbox+inbox patterns) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Exactly-once** message processing (as a result of scrupulous outbox & inbox pattern implementations) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Sequence-preserving** message consumption guarantees <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Maximally-performant, composable **view (read model) system** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
@@ -86,7 +86,7 @@ Avesta's relationship with other prominent technologies in the .NET ecosystem â€
 - (everything else)
 
 **Aims to rival:**
-- Orleans
+- Microsoft Orleans
 - Akka .NET
 - Dapr
 - Temporal.io
