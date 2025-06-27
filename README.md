@@ -72,7 +72,7 @@ From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Code "aesthetics"
 - Principle of least surprise (i.e. it just works)
 
-There is a single major tradeoff Avesta makes, and that is loss of language-agnosticism. Avesta expects your system of microservices to all be based on C#, .NET, and Avesta.
+There is a single major tradeoff Avesta makes, and that is the loss of language-agnosticism. Avesta expects your system of microservices to be fully Avestic (and by extension, based on C#/.NET). That being said, it is, in principle, entirely possible to make Avesta polyglot, by introducing a language-agnostic contract definition layer (since the infrastructure-level dependencies are all language-agnostic); but that, of course, would need doing.
 
 Avesta's relationship with other prominent technologies in the .NET ecosystem — Avesta:
 
