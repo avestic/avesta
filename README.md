@@ -90,6 +90,13 @@ Avesta's relationship with other prominent technologies in the .NET ecosystem â€
 - Akka .NET
 - Dapr
 - Temporal.io
+- Axon (JVM)
+- Prooph (PHP)
+- Commanded (Elixir)
+
+What Avesta frees you from:
+- DTOs, DTOs everywhere, mappings, oh god mapping code...
+- Dealing with ORM, impedance mismatch, embedded SQL
 
 TODO:
 ## Event sourcing â€” the only approach for an exhaustive, lossless source of truth
