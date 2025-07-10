@@ -97,6 +97,7 @@ Avesta's relationship with other prominent technologies in the .NET ecosystem �
 What Avesta frees you from:
 - DTOs, DTOs everywhere, mappings, oh god mapping code...
 - Dealing with ORM, impedance mismatch, embedded SQL
+- Most importantly, Avesta frees you from itself — it guides toward the domain
 
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
