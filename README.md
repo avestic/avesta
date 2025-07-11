@@ -64,10 +64,11 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built for **zero-downtime**, blue-green deployments
+- By virtue of being DDD-based and as such defining explicit consistency boundaries and being free from direct loosely-decoupled relationships, an Avestic system lends itself exceptionally well to sharding for its underlying source-of-truth data store — which is the only real solution to data store horizontal scalability — and this property is exceedingly difficult to achieve for systems not built on these principles.
 - among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
-- Performance — performance is a function of architecture; Avesta doesn't obsess over low level efficienies and prioritizes convenience and elegance over that, but it makes the right trade-offs at the high-level in terms of architecture to achieve practically perfect performance.
+- Performance — performance is a function of architecture; Avesta doesn't obsess over being maximally efficient at the low-level and instead prioritizes convenience and elegance over that, but it makes the right trade-offs at the high-level in terms of architecture to achieve practically perfect performance.
 - Type-safety — compile-time checks over runtime exceptions
 - Explicitness over implicitness
 - Developer ergonomics
