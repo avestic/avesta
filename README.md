@@ -36,18 +36,18 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
 - Native, out-of-the-box **near-linear horizontal scalability** — achieved by workload partitioning, elegant distributed coordination, load-balanced workqueue support, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- **Immediate auto-failover** and rebalancing when an Avestic app's nodes are shut down or spun up — by extension making the system **fault-tolerant** and **highly-availabile** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- **Immediate auto-failover** and rebalancing when an Avestic app's nodes are shut down or spun up — by extension making the system **fault-tolerant** and **highly-available** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Automatic **load-balancing** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Full **location transparency** (for messages, but also for request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Full **location transparency** — there is no need for URL sharing (not only for messages, and request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Purely **event-driven**/everything's real-time — "polling" is a sin in Avesta; everything, from read model updates, to the publishing of messages from the outbox happens "reactively", in an event-driven fashion, yielding near real-time synchronization across the entire system. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Fully **event-sourced**, the only approach to persistence of business data that guarantees no data loss, providing verifiably _exhaustive_ auditability.
+- Fully **event-sourced**, the only approach to persistence of business data that guarantees no data loss and thereby yielding a maximally-rich data source, providing verifiably _exhaustive_ auditability.
 - Event-sourced aggregate **snapshot** support for efficient loading of aggregate instances
 - **Single executable** — no other deployment artifacts. Avestic applications always ship as one runnable program, minimizing operational complexity, both during development and also in production; we don't have multiple executable projects (e.g. one for each background worker, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Powerful primitives and abstractions for **domain modeling** (e.g. aggregate roots, aggregate members, events, reactions, etc.) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Exactly-once** message processing (as a result of scrupulous outbox & inbox pattern implementations) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - **Sequence-preserving** message consumption guarantees <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Maximally-performant, composable **view (read model) system** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Near real-time synchronized, composable **view (read model) system** with **O(1) time complexity** for most queries <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Granular and comprehensive tracking of **cause and effect** with regards to state transitions, across and within bounded contexts. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built-in, tunable **backpressure** in the context of distributed stream processing workloads
