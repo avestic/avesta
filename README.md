@@ -6,8 +6,8 @@ Avesta encompasses and fully centers itself around sophisticated architectural i
 
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", are the following trio:
 1. [**NATS**](https://nats.io/) as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking and coordination, work queue mechanism, load balancing, and configuration management. (See [Why NATS]())
-2. [**MongoDB**](https://www.mongodb.com/) as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
-3. [**Redis**](https://redis.io/open-source/) as the query engine and storage for read models, and general key value storage. (See [Why Redis]())
+2. [**MongoDB**](https://www.mongodb.com/) (with sharding and replication support) as the source-of-truth event store (i.e. write model storage). (See [Why MongoDB]())
+3. [**Redis**](https://redis.io/open-source/) (with sharding and replication support) as the query engine and storage for read models, and general key value storage. (See [Why Redis]())
 
 And that's it. No other out-of-process dependencies.
 
