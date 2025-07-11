@@ -113,3 +113,7 @@ One man's cringe is another's profundity. Give it some time and you too will be 
 
 ### What is "Avestic"?
 Avestic is an adjective; and here, it means an application built on top of Avesta, the framework. It's short for "Avesta-based".
+
+# Licensing:
+MIT-licensed.
+@aradalvand's magnum opus.
