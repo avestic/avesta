@@ -63,6 +63,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Faciliates the elimination of synchronous/blocking service-to-service communication — in a typical Avestic system, there is exactly **zero temporal coupling** between services (which is the most essential best practice with regards to microservices)
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Built for **zero-downtime**, blue-green deployments
 - among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
