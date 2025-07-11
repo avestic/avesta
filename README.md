@@ -35,8 +35,8 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
-- Native, out-of-the-box **near-linear horizontal scalability** (by extension, **fault-tolerance** and **high availability**) — achieved by workload partitioning, elegant distributed coordination, load-balanced workqueue support, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Auto-failover/**rebalancing** when nodes are shut down or spun up — maximally **fault-tolerant**
+- Native, out-of-the-box **near-linear horizontal scalability** — achieved by workload partitioning, elegant distributed coordination, load-balanced workqueue support, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Auto-failover/**rebalancing** when an Avestic app's nodes are shut down or spun up — by extension making the system **fault-tolerant** and **highly-availabile** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Automatic **load-balancing** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Full **location transparency** (for messages, but also for request-replies) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - End-to-end **type-safety** (across service boundaries, with versioning) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
