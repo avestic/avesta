@@ -66,6 +66,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
+- Performance — performance is a function of architecture; Avesta doesn't obsess over low level efficienies and prioritizes convenience and elegance over that, but it makes the right trade-offs at the high-level in terms of architecture to achieve practically perfect performance.
 - Type-safety — compile-time checks over runtime exceptions
 - Explicitness over implicitness
 - Developer ergonomics
