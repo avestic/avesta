@@ -52,7 +52,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Granular and comprehensive tracking of **cause and effect** with regards to state transitions, across and within bounded contexts. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built-in, tunable **backpressure** in the context of distributed stream processing workloads
 - Support for periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Meticulous handling of **concurrency** at all levels, with _automatic retries_ wherever applicable <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Meticulous and bullet-proof handling of **concurrency** at all levels, with _automatic retries_ wherever applicable <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Efficient **MessagePack-based** (de)serialization — isolated serialization per service <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Uniform use of **value objects** (a.k.a. branded types, newtypes, fresh types), enhancing type-safety, and making "invalid states unrepresentable". <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Deep, built-in **extensibility** support, through a wide variety of _hooks_ <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
