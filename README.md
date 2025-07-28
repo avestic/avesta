@@ -50,7 +50,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Near real-time synchronized, composable **view (read model) system** with **O(1) time complexity** for most queries <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Support for modeling **the "future"** (and possible futures), by scheduling/cancellation of **deferred events** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Granular and comprehensive tracking of **cause and effect** with regards to state transitions, across and within bounded contexts. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
-- Comprehensive, in-built solutions to set-based validation problems (e.g. uniqueness) notoriously nontrivial to solve in DDD-CQRS-ES architectures. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
+- Comprehensive, in-built solutions to **set-based** validation problems (e.g. uniqueness) notoriously nontrivial to solve in DDD-CQRS-ES-based systems. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built-in, tunable **backpressure** in the context of distributed stream processing workloads
 - Support for periodic **background jobs** <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Meticulous and bullet-proof handling of **concurrency** at all levels, with _automatic retries_ wherever applicable <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
