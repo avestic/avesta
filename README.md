@@ -68,6 +68,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built for **zero-downtime**, blue-green deployments
 - By virtue of being DDD-based and as such defining explicit consistency boundaries and being free from direct loosely-decoupled relationships, an Avestic system lends itself exceptionally well to sharding for its underlying source-of-truth data store — which is the only real solution to distributing your source-of-truth database — and this property is exceedingly difficult to achieve for systems not built on these principles.
+- Comprehensive snapshot-testing framework for writing fast unit tests for business logic, built on top of TUnit
 - among many other things...
 
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
