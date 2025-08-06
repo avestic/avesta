@@ -71,6 +71,8 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Comprehensive snapshot-testing framework for writing fast unit tests for business logic, built on top of TUnit
 - among many other things...
 
+- User sessions resolved lazily and at the service level so that even if the gateway is somehow bypassed, auth checks still hold.
+
 From a more abstract standpoint, Avesta aims to approximate the ideals of:
 - Performance — performance is a function of architecture; Avesta doesn't obsess over being maximally efficient at the low-level and instead prioritizes convenience and elegance over that, but it makes the right trade-offs at the high-level in terms of architecture to achieve practically perfect performance.
 - Type-safety — compile-time checks over runtime exceptions
