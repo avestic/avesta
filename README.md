@@ -63,6 +63,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Utilizes **Rx primitives** (specifically, the modern [R3 implementation](https://github.com/Cysharp/R3)) to express all **stream processing** workloads, in order to achieve optimal throughout and correctness
 - Fine-grained, expressive **authorization instruments**
 - Queries (read requests) **fulfilled at the edge** — no roundtrips to upstream services (who have more important shit to do — i.e. commands), no request-replh definition with lots of boilerplate and repetitive work
+- No need for a cache — views already have minimal latency and performance cost to retrieve, while guaranteeing eventual consistency & real-time updates
 - Faciliates the elimination of synchronous/blocking service-to-service communication — in a typical Avestic system, there is exactly **zero temporal coupling** between services (which is the most essential best practice with regards to microservices)
 - Full **observability** support (all-encompassing traces, rich metrics, and extensive logs) <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
