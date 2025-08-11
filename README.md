@@ -2,7 +2,7 @@
 
 # Avesta: Next-generation, all-in-one, cloud-native back-end framework.
 
-Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing** — the famous DDD-CQRS-ES trifecta — as well as [the hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) (a.k.a. ports & adapters).
+Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing** — the famous DDD-CQRS-ES trifecta — as well as [the hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) (a.k.a. ports & adapters). The most important high-level ideals Avesta aims to facilitate are **correctness**, **scalability**, and **performance**.
 
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", are the following trio:
 1. [**NATS**](https://nats.io/) (global across the system) as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking and coordination, work queue mechanism, load balancing, and configuration management. (See [Why NATS]())
