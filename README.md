@@ -20,14 +20,14 @@ It makes heavy use of bleeding-edge C# features, including but not limited to th
 - Record types (more generally, features around immutability such as the `with` keyword)
 - Source generators & analyazers
 - Interceptors
+- Extension everything
 
 The C# of even 5 years ago would have been too inexpressive of a language for Avesta's patterns.
 
 Language features that Avesta still feels a dire need for in C#:
+- Discriminated unions
 - [Associated types](https://github.com/dotnet/csharplang/discussions/8710)
 - [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
-- Discriminated unions
-- Static extensions & extension properties
 - [Negative generic constraints](https://github.com/dotnet/csharplang/discussions/707)
 
 # Why NATS:
