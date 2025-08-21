@@ -33,10 +33,10 @@ Language features that Avesta still feels a dire need for in C#:
 
 ### Why NATS:
 
-NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
-- Minimal latency, lightweight, simple.
+NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs. I claim that it is the greatest modern pub/sub software that's been built.
+- Minimal latency, lightweight, simple
+- Unparalleled versatility
 - Profoundly powerful primitives (e.g. subjects), offering deduplication, strong consistency
-- The greatest modern pub/sub software that's been built.
 
 ### Why MongoDB:
 - Native watch feature
