@@ -18,7 +18,7 @@ Avesta is fully written in, and uses modern C#/.NET as its foundational platform
 It makes heavy use of bleeding-edge C# features, including but not limited to the following:
 - Static interface members
 - Record types (more generally, features around immutability such as the `with` keyword)
-- Source generators & analyazers
+- Source generators & analyzers
 - Interceptors
 - Extension everything
 
@@ -31,8 +31,22 @@ Language features that Avesta still feels a dire need for in C#:
 - [Covariance/contravariance for structs and classes](https://github.com/dotnet/csharplang/discussions/2498)
 - [Negative generic constraints](https://github.com/dotnet/csharplang/discussions/707)
 
-# Why NATS:
+### Why NATS:
+
 NATS is Avesta's single most important piece of infrastructure. It alone powers and fulfills most of its infrastructure needs.
+- Minimal latency, lightweight, simple.
+- Profoundly powerful primitives (e.g. subjects), offering deduplication, strong consistency
+- The greatest modern pub/sub software that's been built.
+
+### Why MongoDB:
+- Native watch feature
+- Document database is most appropriate for an event store because events are highly polymorphic — and MongoDB is the most well-known, well-supported document-oriented database
+- No impedance mismatch/complex ORM overhead — the MongoDB driver is sufficient and supports complex querying
+
+### Why Redis:
+- Minimal latency — Redis trades performance for durability guarantees, which is perfect for Avesta's views since they are pure derivations and can be reconstructed on-demand
+- Immediate consistency after adding/updating documents in RediSearch (something that Elasticsearch, for example, expressly doesn't have and would be a deal breaker for Avesta's needs)
+- Reliable pub/sub in the form of Redis Streams that can be used for real-time notifications (again, something that Elasticsearch doesn't support)
 
 ## The result:
 Through its carefully made tradeoffs and its design axioms that were taken to be non-negotiable from day one, Avesta manages to achieve numerous highly desired properties in back-end systems:
@@ -109,6 +123,7 @@ What Avesta frees you from:
 - DTOs, DTOs everywhere, mappings, oh god mapping code...
 - Dealing with ORM, impedance mismatch, embedded SQL
 - Most importantly, Avesta frees you from itself — it guides toward the domain
+
 
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
