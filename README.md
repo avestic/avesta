@@ -5,9 +5,9 @@
 Avesta encompasses and fully centers itself around sophisticated architectural ideas such as **DDD** (domain-driven design), **CQRS**, **event sourcing** — the famous DDD-CQRS-ES trifecta — as well as [the hexagonal architecture](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software)) (a.k.a. ports & adapters). The most important high-level ideals Avesta aims to facilitate are **correctness**, **scalability**, and **performance**.
 
 From a technical standpoint, Avesta is exclusively built on top of open-source software; its "opinions" in terms of infrastructure, also known as "stack", are the following trio:
-1. [**NATS**](https://nats.io/) (global across the system) as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking and coordination, work queue mechanism, load balancing, and configuration management. (See [Why NATS]())
-2. [**MongoDB**](https://www.mongodb.com/) (per-service — with sharding and replication support) as the source-of-truth/system-of-record event store (i.e. write model storage). (See [Why MongoDB]())
-3. [**Redis**](https://redis.io/open-source/) (per-service — with sharding and replication support) as the query engine and storage for read models, and general key value storage. (See [Why Redis]())
+1. [**NATS**](https://nats.io/) (global across the system) as the connective backbone, the "central nervous system" of the distributed system — it's the middleware used for asynchronous messaging, synchronous (blocking) request-reply, distributed locking and coordination, work queue mechanism, load balancing, and configuration management. (See [Why NATS](#why-nats))
+2. [**MongoDB**](https://www.mongodb.com/) (per-service — with sharding and replication support) as the source-of-truth/system-of-record event store (i.e. write model storage). (See [Why MongoDB](#why-mongodb))
+3. [**Redis**](https://redis.io/open-source/) (per-service — with sharding and replication support) as the query engine and storage for read models, and general key value storage. (See [Why Redis](#why-redis))
 
 And that's it. No other out-of-process dependencies.
 
