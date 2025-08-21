@@ -44,7 +44,7 @@ NATS is Avesta's single most important piece of infrastructure. It alone powers 
 - No impedance mismatch/complex ORM overhead — the MongoDB driver is sufficient and supports complex querying
 
 ### Why Redis:
-- Minimal latency — Redis trades performance for durability guarantees, which is perfect for Avesta's views since they are pure derivations and can be reconstructed on-demand
+- Minimal latency — Redis trades performance for durability guarantees, given its in-memory nature, which is perfect for Avesta's views since they are pure derivations and can be reconstructed on-demand
 - Immediate consistency after adding/updating documents in RediSearch (something that Elasticsearch, for example, expressly doesn't have and would be a deal breaker for Avesta's needs)
 - Reliable pub/sub in the form of Redis Streams that can be used for real-time notifications (again, something that Elasticsearch doesn't support)
 
