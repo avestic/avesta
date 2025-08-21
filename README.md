@@ -17,7 +17,7 @@ Other opinions include:
 Avesta is fully written in, and uses modern C#/.NET as its foundational platform.
 It makes heavy use of bleeding-edge C# features, including but not limited to the following:
 - Static interface members
-- Record types (more generally, features around immutability such as the `with` keyword)
+- Immutability-oriented features (such as record types, the `with` keyword, etc.)
 - Source generators & analyzers
 - Interceptors
 - Extension everything
