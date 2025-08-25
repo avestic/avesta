@@ -125,6 +125,8 @@ What Avesta frees you from:
 - Dealing with ORM, impedance mismatch, embedded SQL
 - Most importantly, Avesta frees you from itself — it guides toward the domain
 
+When To Use Avesta:
+Use Avesta when correctness is paramount.
 
 TODO:
 ## Event sourcing — the only approach for an exhaustive, lossless source of truth
