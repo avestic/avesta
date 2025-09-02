@@ -87,8 +87,9 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Testing framework/blueprint for writing fully in-process (read 'fast') unit tests against public API, verifying business logic, ability to programmatically advance time, capture and verify side effects, etc. — built on top of TUnit
 - Comprehensive, mock-free ([fakes](https://testing.googleblog.com/2013/06/testing-on-toilet-fake-your-way-to.html?m=1) [only](https://www.reddit.com/r/programming/s/kUhdqnw6AW)) automated testing blueprint around behaviors/public API — black box testing
 - Meticulous snapshot-testing to document and record changes (and catch bugs) in internal state transitions
-- Unit tests against the public API of the service (read 'requests'), treating all lower-level inner workings (including entities, etc.) as implementation details — giving rise to maximally high-fidelity tests, that actually fulfill the promise of remaining robust against refactorings
+- Unit tests against the public API of the service (read 'requests'), decoupled from lower-level inner workings (including entities, etc.) and treating them as implementation details — tests that actually fulfill the promise of remaining robust against refactorings
 - among many other things...
+- Testing blueprint that achieves maximally high-fidelity tests, acting as live specifications and close matching of real clients of the service
 
 - User sessions resolved lazily and at the service level so that even if the gateway is somehow bypassed, auth checks still hold.
 
