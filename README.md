@@ -88,6 +88,7 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Comprehensive, mock-free ([fakes](https://testing.googleblog.com/2013/06/testing-on-toilet-fake-your-way-to.html?m=1) [only](https://www.reddit.com/r/programming/s/kUhdqnw6AW)) automated testing blueprint around behaviors/public API — black box testing
 - Meticulous snapshot-testing to document and record changes (and catch bugs) in internal state transitions
 - Unit tests against the public API of the service (read 'requests'), decoupled from lower-level inner workings (including entities, etc.) and treating them as implementation details — tests that actually fulfill the promise of remaining robust against refactorings
+- Dummy-data-free/seeding-free tests. The tests are written in the form of interactions with the public contract of the service is specific ways; **making invalid internal states unrepresentable**. This is in contrast with typical testing practices where you generate or hand-write data in gnarly ways to bring the SUT into a desired state before execrising its functionalities. The desired state is brought about in a way that airgaps the SUT from invalid, often-sloppily-written testing states sneaking into it.
 - among many other things...
 - Testing blueprint that achieves maximally high-fidelity tests, acting as live specifications and close matching of real clients of the service
 
