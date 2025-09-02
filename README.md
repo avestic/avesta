@@ -84,8 +84,10 @@ Through its carefully made tradeoffs and its design axioms that were taken to be
 - Sophisticated **healthcheck mechanism**, taking into account view up-to-date-ness, etc. <sup>[Tell me more](https://avestic.dev/docs/horizontal-scalability)</sup>
 - Built for **zero-downtime**, blue-green deployments
 - By virtue of being DDD-based and as such defining explicit consistency boundaries and being free from direct loosely-decoupled relationships, an Avestic system lends itself exceptionally well to sharding for its underlying source-of-truth data store — which is the only real solution to distributing your source-of-truth database — and this property is exceedingly difficult to achieve for systems not built on these principles.
+- Testing framework/blueprint for writing fully in-process (read 'fast') unit tests against public API, verifying business logic, ability to programmatically advance time, capture and verify side effects, etc. — built on top of TUnit
 - Comprehensive, mock-free ([fakes](https://testing.googleblog.com/2013/06/testing-on-toilet-fake-your-way-to.html?m=1) [only](https://www.reddit.com/r/programming/s/kUhdqnw6AW)) automated testing blueprint around behaviors/public API — black box testing
-- Elegant snapshot-testing framework for writing fully in-process (read 'fast') unit tests for business logic, built on top of TUnit
+- Meticulous snapshot-testing to document and record changes (and catch bugs) in internal state transitions
+- Unit tests against the public API of the service (read 'requests'), treating all lower-level inner workings (including entities, etc.) as implementation details — giving rise to maximally high-fidelity tests, that actually fulfill the promise of remaining robust against refactorings
 - among many other things...
 
 - User sessions resolved lazily and at the service level so that even if the gateway is somehow bypassed, auth checks still hold.
